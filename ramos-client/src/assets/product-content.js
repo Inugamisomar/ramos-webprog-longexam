@@ -1,0 +1,108 @@
+const products = [
+  {
+    name: "campus-tote-bag",
+    title: "Campus Tote Bag",
+    category: "Bags",
+    price: "PHP 499",
+    stock: "In stock",
+    image: "/src/assets/img/totebagg.jpg",
+    content: [
+      "A roomy everyday tote for books, gym clothes, chargers, and quick campus errands.",
+      "Made with thick canvas, reinforced handles, and a clean monochrome print.",
+      "Best for students who want one simple carry-all bag for class and after-class plans.",
+    ],
+  },
+  {
+    name: "nu-keychain",
+    title: "NU Keychain",
+    category: "Accessories",
+    price: "PHP 149",
+    stock: "Preorder",
+    image: "/src/assets/img/keychain.png",
+    content: [
+      "A compact and durable keychain perfect for keys, bags, or ID holders.",
+      "Lightweight design makes it easy to carry anywhere on campus.",
+      "Simple accessory that adds a touch of NU identity to your everyday items.",
+    ],
+  },
+  {
+    name: "stainless-tumbler",
+    title: "Stainless Tumbler",
+    category: "Drinkware",
+    price: "PHP 599",
+    stock: "Preorder",
+    image: "/src/assets/img/tumbler.jpg",
+    content: [
+      "A double-wall tumbler designed to keep drinks hot or cold for hours.",
+      "Spill-resistant lid makes it safe to carry inside bags.",
+      "Perfect for coffee, water, or tea during long school days.",
+    ],
+  },
+  {
+  name: 'compact-umbrella',
+  title: 'Compact Umbrella',
+  category: 'Accessories',
+  price: 'PHP 349',
+  stock: 'Preorder',
+  image: '/src/assets/img/umbrella.jpg',
+  content: [
+    'A compact umbrella designed for sudden rain and sunny days.',
+    'Lightweight and foldable for easy storage in bags.',
+    'Strong frame provides reliable protection against wind and rain.',
+  ],
+},
+  {
+    name: "hoodie-jacket",
+    title: "Hoodie Jacket",
+    category: "Apparel",
+    price: "PHP 1,199",
+    stock: "Preorder",
+    image: "/src/assets/img/hoodies.jpg",
+    content: [
+      "A soft everyday hoodie with a relaxed fit for classrooms, commute days, and weekends.",
+      "The heavy cotton blend keeps structure while staying comfortable for regular wear.",
+      "Available through preorder so sizes can be reserved before release.",
+    ],
+  },
+  {
+    name: "nu-cap",
+    title: "NU Cap",
+    category: "Accessories",
+    price: "PHP 299",
+    stock: "Preorder",
+    image: "/src/assets/img/nucap.jpg",
+    content: [
+      "A lightweight cap perfect for sunny days and outdoor campus activities.",
+      "Adjustable strap ensures a comfortable fit for all-day wear.",
+      "Simple and clean design that matches any outfit.",
+    ],
+  },
+  {
+    name: "id-lanyard",
+    title: "ID Lanyard",
+    category: "Accessories",
+    price: "PHP 179",
+    stock: "Preorder",
+    image: "/src/assets/img/lanyard.jpg",
+    content: [
+      "A durable lanyard designed for holding IDs, cards, and small essentials.",
+      "Features a secure clip for easy attachment and removal.",
+      "Perfect for daily school use and campus access.",
+    ],
+  },
+ {
+  name: 'casual-sando',
+  title: 'Casual Sando',
+  category: 'Apparel',
+  price: 'PHP 299',
+  stock: 'Preorder',
+  image: '/src/assets/img/sando.jpg',
+  content: [
+    'A lightweight sando ideal for warm days and active campus life.',
+    'Breathable fabric keeps you cool and comfortable throughout the day.',
+    'Great for workouts, sports, or casual wear.',
+  ],
+},
+];
+
+export default products;
